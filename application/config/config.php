@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-define('APP_NAME', 'JOJO Cruise');
+define('APP_NAME', 'Pideto');
 
 /*
 |--------------------------------------------------------------------------
