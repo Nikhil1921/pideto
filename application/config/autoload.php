@@ -1,5 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -58,7 +57,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database', 'email', 'session','form_validation','encryption');
+$autoload['libraries'] = array('template', 'form_validation', 'database');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +88,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url','html','file','form','login_helper','action_hooks_helper','option_helper','general_helper','fields_helper','datatables_helper','message_helper');
+$autoload['helper'] = array('url', 'html', 'my');
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +102,7 @@ $autoload['helper'] = array('url','html','file','form','login_helper','action_ho
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array('app_config');
+$autoload['config'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -132,4 +131,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array("common_model","logs_model","message_model","encrypto","attachment_model");
+$autoload['model'] = array();
